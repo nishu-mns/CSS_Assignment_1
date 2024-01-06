@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D8DA3D;
+    color: #80007E;
+    font-family: Georgia, serif;
+}
+
+/* The sidebar */
+#links {
+    float: left;
+    width: 14%;
+    margin-top: 15px;
+}
+
+#links a {
+    display: block;
+    text-decoration: none;
+    color: #80007E;
+    width: 100%;
+    padding: 5px;
+    margin-top: 7px;
+    margin-left: 2px;
+    /* A black part at the end of every link */
+    background: linear-gradient(
+      90deg,
+      white 0%,
+      white 92%,
+      black 92%,
+      black 100%
+    );
+}
+
+/* Main content */
+#content {
+    float: left;
+    width: 84%;
+    padding: 0 20px;
+    margin-left: 18px;
+}
+
+#content h1{
+    margin-top: 2px;
+    font: bold 30px Arial, Helvetica, sans-serif;
+}
+
+/* Footer */
+#footer {
+    border-top: 1.5px dotted;
+    margin-top: 50px;
+    width: 100%;
+  }
