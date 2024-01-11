@@ -11,11 +11,12 @@ body {
 /* The sidebar */
 #links {
     float: left;
-    width: 14%;
+    width: 15%;
     margin-top: 15px;
 }
 
 #links a {
+    background-color: white;
     display: block;
     text-decoration: none;
     color: #80007E;
@@ -24,19 +25,13 @@ body {
     margin-top: 7px;
     margin-left: 2px;
     /* A black part at the end of every link */
-    background: linear-gradient(
-      90deg,
-      white 0%,
-      white 92%,
-      black 92%,
-      black 100%
-    );
+    border-right: 16px solid black;
 }
 
 /* Main content */
 #content {
     float: left;
-    width: 84%;
+    width: 82%;
     padding: 0 20px;
     margin-left: 18px;
 }
